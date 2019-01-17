@@ -15,13 +15,13 @@ bool isPrime;
 int main()
 {
 	cout << "List of Prime Numbers" << endl;
-	for (number = 1; number <= 4; number++) {
+	for (number = 1; number <= 14; number++) {
 		 
 		for (loop = 1; loop < number; loop++) {
-			cout << number << " modulus by " << loop << " is: " << (number % loop) << endl;
+			//cout << number << " modulus by " << loop << " is: " << (number % loop) << endl;
 
 
-			if ((number % loop) == 0) {
+			if (number % loop == 0) {
 				isPrime = true;
 				cout << number << " is  a  prime number. " << endl;
 			}
