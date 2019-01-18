@@ -16,7 +16,7 @@ int main()
 {
 	
 	cout << "List of Prime Numbers" << endl;
-	for (number = 2; number <= 999140000; number++) {
+	for (number = 2; number <= 99; number++) {
 		 
 		for (loop = 2; loop*loop < number; loop++) {
 
@@ -27,7 +27,7 @@ int main()
 			}
 			//isPrime = false;
 			else if (loop + 1 > sqrt(number)) {
-				cout << "this " << number << " is a prime numer." << endl;
+				cout << "this number " << number << " is a prime numer." << endl;
 			} //else
 
 		}// loop
